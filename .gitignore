@@ -1,6 +1,10 @@
 # Directories
 .vs/
+.vscode/
 build/
+scenes/*
+assets/*
+x64/
 
 # Files
 *.vcxproj
@@ -9,6 +13,5 @@ build/
 *.sln
 *.log
 Makefile
-
-# Exclude
-!dependencies/binaries
+settings.ini
+imgui.ini
